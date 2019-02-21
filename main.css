@@ -1,0 +1,246 @@
+@media screen and (max-width: 767px) {
+
+#pictureOfMe {
+    background-color: grey;
+    border: 2px, solid, black;
+    padding: 20px;
+    margin: auto;
+    width: 30%;
+    height: 10%;
+    margin-top:10%;     
+}
+
+
+#headline {
+    text-align: center;
+}
+
+#mattFitz {
+    text-align: center;
+    font-size: 6vw;
+    font-style: italic;
+}
+
+#bio {
+    background-color: grey;
+    border: 2px, solid, black;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    height: 5%;
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+    background-color: grey;
+    border: 2px, solid, black;
+    width: 61%;
+    margin: auto;
+}
+
+#works {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#project1 {
+    background-color: grey;
+    border: 2px, solid, black;
+    padding: 20px;
+    margin: auto;
+    width: 30%;
+    height: 10%;
+    margin-top:10%;
+}
+
+#project2 {
+    background-color: grey;
+    border: 2px, solid, black;
+    padding: 20px;
+    margin: auto;
+    width: 30%;
+    height: 10%;
+    margin-top:10%;
+}
+
+#project3 {
+    background-color: grey;
+    border: 2px, solid, black;
+    padding: 20px;
+    margin: auto;
+    width: 30%;
+    height: 10%;
+    margin-top:10%;
+}
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    #pictureOfMe {
+        background-color: grey;
+        border: 2px, solid, black;
+        padding: 20px;
+        margin: auto;
+        width: 30%;
+        height: 10%;
+        margin-top: 5%;
+    }
+    
+    
+    #headline {
+        text-align: center;
+    }
+    
+    #mattFitz {
+        text-align: center;
+        font-size: 6vw;
+        font-style: italic;
+    }
+    
+    #bio {
+        background-color: grey;
+        border: 2px, solid, black;
+        padding: 20px;
+        margin: auto;
+        width: 50%;
+        height: 5%;
+        text-align: center;
+    }
+    
+    #contact {
+        text-align: center;
+        background-color: grey;
+        border: 2px, solid, black;
+        width: 55%;
+        margin: auto;
+    }
+    
+    #works {
+        text-align: center;
+        text-decoration: underline;
+        font-style: italic;
+    }
+    
+    #project1 {
+        background-color: grey;
+        border: 2px, solid, black;
+        padding: 20px;
+        margin: auto;
+        width: 30%;
+        height: 10%;
+        margin-top:5%;
+    }
+    
+    #project2 {
+        background-color: grey;
+        border: 2px, solid, black;
+        padding: 20px;
+        margin: auto;
+        width: 30%;
+        height: 10%;
+        margin-top:5%;
+    }
+    
+    #project3 {
+        background-color: grey;
+        border: 2px, solid, black;
+        padding: 20px;
+        margin: auto;
+        width: 30%;
+        height: 10%;
+        margin-top:5%;
+        margin-bottom: 5%;
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+
+    #pictureOfMe {
+        background-color: grey;
+        border: 2px, solid, black;
+        padding: 20px;
+        margin: auto;
+        width: 45%;
+        height: 40%;
+        margin-top:5%;     
+    }
+    
+    
+    #headline {
+        padding-top: 3%;
+        text-align: center;
+        font-size: 2vw;
+    }
+    
+    #mattFitz {
+        text-align: center;
+        font-size: 5vw;
+        font-style: italic;
+    }
+    
+    #bio {
+        background-color: grey;
+        border: 2px, solid, black;
+        padding: 20px;
+        margin: auto;
+        width: 40%;
+        height: 10%;
+        text-align: center;
+    }
+    
+    #contact {
+        text-align: center;
+        background-color: grey;
+        border: 2px, solid, black;
+        width: 40%;
+        margin: auto;
+        margin-top: 2%;
+    }
+    
+    #works {
+        text-align: center;
+        text-decoration: underline;
+        font-style: italic;
+        font-size: 3vw;
+    }
+    
+    #project1 {
+        background-color: grey;
+        border: 2px, solid, black;
+        padding: 20px;
+        margin: auto;
+        width: 20%;
+        height: 30%;
+       
+    }
+    
+    #project2 {
+        background-color: grey;
+        border: 2px, solid, black;
+        padding: 20px;
+        margin: auto;
+        width: 20%;
+        height: 30%;
+    
+    }
+    
+    #project3 {
+        background-color: grey;
+        border: 2px, solid, black;
+        padding: 20px;
+        margin: auto;
+        width: 20%;
+        height: 30%;
+        
+    }
+
+    #library {
+        display: flex;
+        flex-direction: row;
+    }
+}
