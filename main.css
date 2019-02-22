@@ -1,13 +1,79 @@
+html {
+    background-color: rgb(194, 218, 227);
+}
+
+body {
+    color: white;
+    font-family: monaco;
+}
+
+#webDeveloper {
+    font-weight: bold;
+}
+
+.specialWords {
+    font-weight: bold;
+}
+
+#works {
+    font-weight: 500;
+}
+
+.always {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.italics {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#project1 {
+    
+    margin: auto;
+    width: 58vw;
+    height: 40vw;
+    text-align: center;
+    overflow: hidden;
+    font-size: 2.5vw;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#project1Info {
+    background-color: lightblue;
+    border: 2px, white;
+    padding: 20px;
+    margin: auto;
+    
+    height: 40vw;
+    text-align: left;
+    overflow: hidden;
+    font-size: 2.3vw;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+    
+    
+    
+    
+}
+
 @media screen and (max-width: 411px) {
 
 #pictureOfMe {
-    background-color: grey;
-    border: 2px, solid, black;
-    padding: 20px;
+    margin-top: 20%;
     margin: auto;
     width: 30%;
-    height: 10%;
-    margin-top:10%;     
+    display: block;
+    border-radius: 3px;
+    background-color: aqua;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+img {
+    border-radius: 5px;
 }
 
 
@@ -19,43 +85,76 @@
     text-align: center;
     font-size: 6vw;
     font-style: italic;
+    font-weight: bold;
 }
 
 #bio {
-    background-color: grey;
-    border: 2px, solid, black;
+    
+    background-color: lightblue;
+    border: 2px, white;
     padding: 20px;
     margin: auto;
-    width: 50%;
-    height: 5%;
+    width: 50vw;
+    height: 55vw;
     text-align: center;
+    overflow: hidden;
+    font-size: 2.5vw;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 #contact {
-    text-align: center;
-    background-color: grey;
+    padding: 1%;
+    background-color: lightblue;
     border: 2px, solid, black;
-    width: 61%;
+    width: 200px;
     margin: auto;
+    border-radius: 3px;
+    font-size: 2.5vw;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#email {
+
+}
+
+#phone {
+    
 }
 
 #works {
     text-align: center;
     text-decoration: underline;
     font-style: italic;
+    padding-top: 2%;
 }
 
 #project1 {
-    background-color: grey;
+    display: block;
     border: 2px, solid, black;
-    padding: 20px;
+    
     margin: auto;
-    width: 30%;
-    height: 10%;
+    
     margin-top:10%;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#project1info {
+    display: block;
+    
+    border: 2px, solid, black;
+    
+    margin: auto;
+    width: 50%;
+    
 }
 
 #project2 {
+    
+    display: none;
+    
+    
     background-color: grey;
     border: 2px, solid, black;
     padding: 20px;
@@ -63,9 +162,15 @@
     width: 30%;
     height: 10%;
     margin-top:10%;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 #project3 {
+    
+    display: none;
+    
+    
     background-color: grey;
     border: 2px, solid, black;
     padding: 20px;
@@ -73,7 +178,13 @@
     width: 30%;
     height: 10%;
     margin-top:10%;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+
+
+
 
 }
 
@@ -81,79 +192,117 @@
 @media screen and (min-width: 412px) and (max-width: 1024px) {
 
     #pictureOfMe {
-        background-color: grey;
-        border: 2px, solid, black;
-        padding: 20px;
-        margin: auto;
-        width: 30%;
-        height: 10%;
-        margin-top: 5%;
+    margin-top: 20%;
+    margin: auto;
+    width: 30%;
+    display: block;
+    border-radius: 3px;
+    background-color: aqua;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
-    
     
     #headline {
         text-align: center;
+        margin-top: 5%;
+        font-size: 3vw;
+        padding-top: 2%;
     }
     
     #mattFitz {
         text-align: center;
         font-size: 6vw;
         font-style: italic;
+        font-weight: bold;
+        margin-bottom: 5%;
     }
     
     #bio {
-        background-color: grey;
-        border: 2px, solid, black;
-        padding: 20px;
-        margin: auto;
-        width: 50%;
-        height: 5%;
-        text-align: center;
+        background-color: lightblue;
+    border: 2px, white;
+    padding: 20px;
+    padding-bottom: 5%;
+    margin: auto;
+    width: 50vw;
+    height: 33vw;
+    text-align: center;
+    overflow: hidden;
+    font-size: 2vw;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
     
     #contact {
-        text-align: center;
-        background-color: grey;
-        border: 2px, solid, black;
-        width: 55%;
-        margin: auto;
+        
+        padding: 2%;
+    background-color: lightblue;
+    border: 2px, solid, black;
+    width: 50vw;
+    margin: auto;
+    border-radius: 3px;
+    font-size: 2.5vw;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
     
     #works {
         text-align: center;
         text-decoration: underline;
         font-style: italic;
+        margin-top:5%;
+        font-size: 3vw;
     }
     
     #project1 {
-        background-color: grey;
+        display: block;
         border: 2px, solid, black;
-        padding: 20px;
+        
         margin: auto;
-        width: 30%;
-        height: 10%;
+        
         margin-top:5%;
+        border-radius: 3px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
     
+    #project1info {
+        display: block;
+    
+        border: 2px, solid, black;
+        
+        margin: auto;
+        width: 50%;
+        
+    }
+
+
     #project2 {
+        
+        display: none;
+        
+        
         background-color: grey;
         border: 2px, solid, black;
         padding: 20px;
         margin: auto;
         width: 30%;
         height: 10%;
-        margin-top:5%;
+        margin-top:10%;
+        border-radius: 3px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
     
     #project3 {
+        
+        display: none;
+        
+        
         background-color: grey;
         border: 2px, solid, black;
         padding: 20px;
         margin: auto;
         width: 30%;
         height: 10%;
-        margin-top:5%;
-        margin-bottom: 5%;
+        margin-top:10%;
+        border-radius: 3px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
 
 }
@@ -161,13 +310,13 @@
 @media screen and (min-width: 1025px) {
 
     #pictureOfMe {
-        background-color: grey;
-        border: 2px, solid, black;
-        padding: 20px;
-        margin: auto;
-        width: 45%;
-        height: 40%;
-        margin-top:5%;     
+        margin-top: 20%;
+    margin: auto;
+    width: 30%;
+    display: block;
+    border-radius: 3px;
+    background-color: aqua;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);  
     }
     
     
@@ -184,22 +333,29 @@
     }
     
     #bio {
-        background-color: grey;
-        border: 2px, solid, black;
+        background-color: lightblue;
+        border: 2px, white;
         padding: 20px;
+        padding-bottom: 5%;
         margin: auto;
-        width: 40%;
-        height: 10%;
+        width: 50vw;
+        height: 33vw;
         text-align: center;
+        overflow: hidden;
+        font-size: 2vw;
+        border-radius: 3px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
     
     #contact {
-        text-align: center;
-        background-color: grey;
-        border: 2px, solid, black;
-        width: 40%;
-        margin: auto;
-        margin-top: 2%;
+        padding: 1%;
+    background-color: lightblue;
+    border: 2px, solid, black;
+    width: 50vw;
+    margin: auto;
+    border-radius: 3px;
+    font-size: 2.5vw;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
     
     #works {
@@ -210,16 +366,32 @@
     }
     
     #project1 {
-        background-color: grey;
-        border: 2px, solid, black;
-        padding: 20px;
-        margin: auto;
-        width: 20%;
-        height: 30%;
-       
-    }
+        display: block;
+    border: 2px, solid, black;
+    margin-bottom: 10%;
+    margin: auto;
     
+    margin-top:10%;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: rgb(194, 218, 227);
+
+    }
+
+    #project1info {
+        display: block;
+        
+        border: 2px, solid, black;
+        
+        margin: auto;
+        width: 50%;
+        
+    }
+
+
     #project2 {
+       visibility: hidden;
+       
         background-color: grey;
         border: 2px, solid, black;
         padding: 20px;
@@ -230,6 +402,8 @@
     }
     
     #project3 {
+        visibility: hidden;
+       
         background-color: grey;
         border: 2px, solid, black;
         padding: 20px;
@@ -240,7 +414,6 @@
     }
 
     #library {
-        display: flex;
-        flex-direction: row;
+        
     }
 }
