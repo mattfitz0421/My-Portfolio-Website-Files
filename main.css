@@ -101,7 +101,7 @@ img {
     width: 60vw;
     text-align: left;
     overflow: hidden;
-    font-size: 3vw;
+    font-size: 4vw;
     border-radius: 3px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -113,7 +113,7 @@ img {
     width: 200px;
     margin: auto;
     border-radius: 3px;
-    font-size: 2.5vw;
+    font-size: 3vw;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
