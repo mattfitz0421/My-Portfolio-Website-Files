@@ -145,9 +145,8 @@ img {
 
 #project1info {
     display: block;
-    
+    font-size: 3vw;
     border: 2px, solid, black;
-    
     margin: auto;
     width: 50%;
     
